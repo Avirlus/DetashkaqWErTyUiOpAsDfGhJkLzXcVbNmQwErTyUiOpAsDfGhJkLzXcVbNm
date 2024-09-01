@@ -1,0 +1,30 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container-deleted-text {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	pointer-events: none;
+}
+
+.deleted-text {
+    color: red;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    transform: rotate(300deg);
+    white-space: nowrap;
+    font-size: 16em;
+    overflow: hidden;
+	pointer-events: none;
+}
